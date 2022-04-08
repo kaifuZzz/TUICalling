@@ -1,0 +1,76 @@
+# OSX
+#
+.DS_Store
+
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+
+# Bundle artifact
+# *.jsbundle
+
+# CocoaPods
+/iOS/Example/Pods/
+
+
+# iOS 
+#
+
+## OSX files
+*.DS_Store
+._*
+
+## Build generated
+/iOS/Example/build/
+output/
+/iOS/Example/DerivedData/
+
+## Various settings
+/iOS/Example/*.pbxuser
+!/iOS/Example/default.pbxuser
+/iOS/Example/*.mode1v3
+!/iOS/Example/default.mode1v3
+/iOS/Example/*.mode2v3
+!/iOS/Example/default.mode2v3
+/iOS/Example/*.perspectivev3
+!/iOS/Example/default.perspectivev3
+/iOS/Example/xcuserdata/
+
+## Other
+/iOS/Example/*.xccheckout
+/iOS/Example/*.moved-aside
+/iOS/Example/*.xcuserstate
+/iOS/Example/*.xcscmblueprint
+/iOS/Example/*.xcscheme
+
+## Obj-C/Swift specific
+/iOS/Example/*.hmap
+/iOS/Example/*.ipa
+/iOS/Example/*.dSYM.zip
+/iOS/Example/*.dSYM
+
+## CocoaPods
+
+!/iOS/Example/Podfile.lock
+PodConfig_dev.rb
+!/iOS/Example/Podfile
+
+
+## Xcode
+/iOS/Example/TUICallingApp.xcworkspace/xcuserdata
+/iOS/Example/*.xcworkspace/xcuserdata/*.xcuserdatad
+/iOS/Example/*.xcodeproj/xcuserdata/*.xcuserdatad
+/iOS/Example/*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
+
+
